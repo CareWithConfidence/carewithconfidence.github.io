@@ -458,7 +458,7 @@ ul.dates li
 {
     position: relative;
     border-top: solid 1px #ddd;
-    padding: 1em 0 1em 6em;
+    padding: 0.5em 0 0.5em 6em;
 }
 
 ul.dates .date
@@ -466,15 +466,17 @@ ul.dates .date
     display: block;
     position: absolute;
     left: 0;
-    top: 2em;
-    background-color: #d52349;
-    height: 3.5em;
+    top:0.75em;
+    background-color: #006fb7;
+    height: 3em;
     text-align: center;
     color: #fff;
     line-height: 1em;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding: 0.5em 0.75em 0 1em;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0.25em 0.75em 0 1em;
 }
 
 ul.dates .date:after
@@ -483,9 +485,9 @@ ul.dates .date:after
     position: absolute;
     bottom: 0;
     right: -1.2em;
-    border-left: solid 1.25em #d52349;
-    border-top: solid 1.8em transparent;
-    border-bottom: solid 1.8em transparent;
+    border-left: solid 1.25em #006fb7;
+    border-top: solid 1.5em transparent;
+    border-bottom: solid 1.5em transparent;
 }
 
 ul.dates .date strong
@@ -498,12 +500,13 @@ ul.dates .date strong
 ul.dates h3
 {
     font-size: 1.1em;
+    margin: 0 !important;
 }
 
 ul.dates p
 {
     font-size: 1em;
-    margin: 0;
+    margin: 0 !important;
 }
 
 ul.dates li:first-child
@@ -514,7 +517,7 @@ ul.dates li:first-child
 
 ul.dates li:first-child .date
 {
-    top: 1em;
+    top: 0.25em;
 }
 
 /* Table */

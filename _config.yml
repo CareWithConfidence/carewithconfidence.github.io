@@ -1,14 +1,34 @@
 # Site settings
-title: Carewithconfidence
+title: Care with Confidence
 email: ryan.d.price@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://locahost:4000" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  Care with confidence domain site, explains services and courses 
+  available.
+
+timezone: Europe/London
+encoding: utf-8
 
 # Build settings
 markdown: kramdown
+
+collections:
+  courses:
+    output: true
+    permalink: /:collection/:name
+  dates:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+-
+  scope:
+    path: ""
+    type: "courses"
+  values:
+    layout: "course"
+-
+  scope:
+    path: ""
+    type: "dates"
+  values:
+    layout: "dates"
