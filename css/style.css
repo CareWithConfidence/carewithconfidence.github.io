@@ -472,8 +472,8 @@ ul.dates .date
     text-align: center;
     color: #fff;
     line-height: 1em;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     padding: 0.25em 0.75em 0 1em;

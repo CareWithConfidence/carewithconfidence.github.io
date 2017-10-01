@@ -100,22 +100,12 @@ layout: landing-page
             <div class="6u">
                 <h2>Upcoming Dates</h2>
                 <ul class="dates">
-                    <li><span class="date">Oct<strong>17</strong></span>
-                        <h3><a href="#">FAW (3 days)</a></h3>
-                        <p>Ormskirk High School (places still available)</p>
+                    {% for date in site.dates limit:4 %}
+                    <li><span class="date">{{ date.date | date: "%b" }}<strong>{{ date.date | date: "%d" }}</strong></span>
+                        <h3><a href="{{ date.url }}">{{ date.title }}</a></h3>
+                        <p>{{ date.location }}</p>
                     </li>
-                     <li><span class="date">Oct<strong>20</strong></span>
-                        <h3><a href="#">CPR AED</a></h3>
-                        <p>Scarisbrick Hall School</p>
-                    </li>
-                    <li><span class="date">Oct<strong>30</strong></span>
-                        <h3><a href="#">FAW (3 days)</a></h3>
-                        <p>Ormskirk High School (places still available)</p>
-                    </li>
-                     <li><span class="date">Nov<strong>2</strong></span>
-                        <h3><a href="#">CPR AED</a></h3>
-                        <p>Scarisbrick Hall School</p>
-                    </li>
+                    {% endfor %}
                 </ul>
                 
             </div>
