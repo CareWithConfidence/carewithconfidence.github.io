@@ -13,7 +13,7 @@ From September 2016 all newly qualified Level 2 and Level 3 staff must have a fu
 
 Its topics are regarded by the Early Years Foundation Stage as being important to maintaining good practice in the safe, prompt and effective treatment of injuries and ill health of infants and children who are under the care of trained personnel.
 
-All childcare facilities can voluntarily apply for a quality mark known as ‘Millie’s Mark’, for more info on the award please follow the link. http://bit.ly/29zoc9C
+All childcare facilities can voluntarily apply for a quality mark known as 'Millie's Mark', for more info on the award please follow the link. http://bit.ly/29zoc9C
 
 This course is split into 2 units.
 

@@ -10,95 +10,27 @@ permalink: courses/
     </header>
     <section class="wrapper style3 container special">
    
+        {% assign rows = site.courses.size | divided_by: 2.0 | ceil %}
+        {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 2 %}
         <div class="row">
+            {% for course in site.courses limit:2 offset:offset %}
             <div class="6u">
                 <section>
                     <a href="#" class="image featured"><img src="/images/pic01.jpg" alt="" /></a>
                     <header>
-                        <h3>3 day FAW</h3>
+                        <h3>{{ course.title}}</h3>
                     </header>
                     <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
                     <footer>
                         <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
+                            <li><a href="{{ course.url }}" class="button small">Learn More</a></li>
                         </ul>
                     </footer>
                 </section>
             </div>
-            <div class="6u">
-                <section>
-                    <a href="#" class="image featured"><img src="/images/pic02.jpg" alt="" /></a>
-                    <header>
-                        <h3>CPR AED</h3>
-                    </header>
-                    <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
-                        </ul>
-                    </footer>
-                </section>
-            </div>
+            {% endfor %}
         </div>
-        <div class="row">
-            <div class="6u">
-                <section>
-                    <a href="#" class="image featured"><img src="/images/pic03.jpg" alt="" /></a>
-                    <header>
-                        <h3>EFAW 1 day</h3>
-                    </header>
-                    <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
-                        </ul>
-                    </footer>
-                </section>
-            </div>
-            <div class="6u">
-                <section>
-                    <a href="#" class="image featured"><img src="/images/pic04.jpg" alt="" /></a>
-                    <header>
-                        <h3>Paediatric First Aid</h3>
-                    </header>
-                    <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
-                        </ul>
-                    </footer>
-                </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="6u">
-                <section>
-                    <a href="#" class="image featured"><img src="/images/first-aid-for-parents.jpg" alt="" /></a>
-                    <header>
-                        <h3>Parents first aid</h3>
-                    </header>
-                    <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
-                        </ul>
-                    </footer>
-                </section>
-            </div>
-            <div class="6u">
-                <section>
-                    <a href="#" class="image featured"><img src="/images/pic03.jpg" alt="" /></a>
-                    <header>
-                        <h3>Childrens first aid</h3>
-                    </header>
-                    <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
-                        </ul>
-                    </footer>
-                </section>
-            </div>
-        </div>
+        {% endfor %}
     </section>
 </article>
