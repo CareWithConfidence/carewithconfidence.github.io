@@ -2,9 +2,9 @@
 layout: course
 title: "Paediatric First Aid"
 duration: "2 Days"
+prerequisite: "No previous first aid knowledge is required to attend this course."
+qualification: "Level 3 Award in Paediatric First Aid (QCF)"
 ---
-
-Level 3 Award in Paediatric First Aid (QCF)
 
 We specialise in paediatric first aid. Our courses are delivered by an instructor that has over 20 years of childcare and managemnt experience and that has supported the industry need for 100% first aid qualified staff.
 This course is aimed at those who wish to or already work in childcare or a school.
@@ -20,10 +20,6 @@ This course is split into 2 units.
 We are more than aware of the constraints employers/people face when attending courses, please contact us to arrange the best delivery model for your team.
 
 Weekend courses available.
-
-Learner entry requirements:
-
-None.
 
 This course covers the following;
 

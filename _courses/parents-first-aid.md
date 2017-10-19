@@ -2,6 +2,7 @@
 layout: course
 title: "Parents First Aid"
 duration: "3 hours"
+prerequisite: "No previous first aid knowledge is required to attend this course."
 ---
 
 New Parents course

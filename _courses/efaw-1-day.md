@@ -2,9 +2,9 @@
 layout: course
 title: "Emergency First Aid at Work"
 duration: "1 Day (6 hours)"
+prerequisite: "No previous training required to attend this course, just a willingness to learn."
+qualification: "Level 2 Award in Emergency First Aid at Work (QCF) (EFAW)"
 ---
-
-Level 2 Award in Emergency First Aid at Work (QCF) (EFAW)
 
 This course is designed for anyone wanting to learn first aid or become an accredited emergency first aider or appointed person within the workplace. This course provides learners with skills and the knowledge to deal with first aid situations in low risk work environments.
 
@@ -18,7 +18,3 @@ This course will enable you to:
 *be able to recognise and assist a casualty with external bleeding
 *be able to manage a casualty who is suffering from shock.
 *be able to manage a casualty with a minor injury.
-
-Learner entry requirements:
-
-No previous training required to attend this course, just a willingness to learn.

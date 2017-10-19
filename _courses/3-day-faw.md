@@ -2,16 +2,13 @@
 layout: course
 title: "Level 3 Award First Aid at Work"
 duration: "3 Days (18 hours)"
+prerequisite: "No previous first aid knowledge is required to attend this course."
+qualification: "Level 3 Award in First Aid at Work (QCF) (FAW)"
 ---
-
-Level 3 Award in First Aid at Work (QCF) (FAW)
 
 This course is designed for anyone wanting to become an accredited workplace first aider. It is particularly appropriate to companies/individuals where HSE Guidelines recommend a qualified person within the workplace.
 
 You will be taught by qualified, experienced proffessionals who will support you to gain knowledge, skills and confidence.
-
-Learner entry requirements:
-No previous first aid knowledge is required to attend this course.
 
 This course will enable you to:
 *understand the role and responsibilities of a first aider.
