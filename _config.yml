@@ -1,0 +1,23 @@
+# Site settings
+title: Care with Confidence Training Consultancy 
+email: ryan.d.price@gmail.com
+description: Care with confidence domain site, explains services and courses available.
+
+timezone: Europe/London
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+
+collections:
+  courses:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+-
+  scope:
+    path: ""
+    type: "courses"
+  values:
+    layout: "course"

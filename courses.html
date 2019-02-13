@@ -1,0 +1,37 @@
+---
+layout: no-sidebar
+permalink: /courses/
+---
+
+<article id="main">
+    <header class="special container">
+        <span class="icon fa-file-text-o"></span>
+        <h2>Courses</h2>
+    </header>
+    <section class="wrapper style3 container special">
+   
+        {% assign rows = site.courses.size | divided_by: 2.0 | ceil %}
+        {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 2 %}
+        <div class="row">
+            {% for course in site.courses limit:2 offset:offset %}
+            <div class="col-6 col-12-narrower">
+                <section>
+                    <a href="{{ course.url }}" class="image featured"><img src="{{ course.image }}" alt="{{ course.title}}" /></a>
+                    <header>
+                        <h3>{{ course.title }}</h3>
+                    </header>
+                    <p>{{ course.description }}</p>
+                    <footer>
+                        <ul class="buttons">
+                            <li><a href="{{ course.url }}" class="button small">Learn More</a></li>
+                        </ul>
+                    </footer>
+		    <br />
+                </section>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </section>
+</article>
